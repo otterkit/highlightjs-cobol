@@ -257,10 +257,6 @@ module.exports = function (hljs){
     contains:
       [
         {
-          scope: 'operator',
-          match: /(\+|-|\*|\/|\*\*|>|<|<>|=|>=|<=|&|::|>>)/
-        },
-        {
           scope: 'string',
           begin: '"', end: '"'
         },
