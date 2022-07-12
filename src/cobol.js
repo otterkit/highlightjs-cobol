@@ -256,6 +256,7 @@ module.exports = function (hljs){
     },
     contains:
       [
+        hljs.COMMENT('\\*>','\n'),
         {
           scope: 'type',
           begin: /(9|S9|V9|X|A)+(\([0-9]*\))+/
@@ -271,8 +272,7 @@ module.exports = function (hljs){
         {
           scope: 'string',
           begin: "'", end: "'"
-        },
-        hljs.COMMENT('\\*>','\n')
+        }
       ]
   }
 }
