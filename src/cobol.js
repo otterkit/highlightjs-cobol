@@ -270,7 +270,7 @@ module.exports = function (hljs)
           scope: 'string',
           begin: "'", end: "'"
         },
-        hljs.COMMENT('*>','\n')
+        hljs.COMMENT('\\*>','\n')
       ]
   }
 }
