@@ -13,12 +13,6 @@
 // limitations under the License.
 
 module.exports = function (hljs){
-  
-  const OPERATORS = [
-    '+','-','*','/','**',
-    '>','<','<>','=','>=',
-    '<=','&','::','>>',
-  ]
 
   return {
     name: 'COBOL',
@@ -264,7 +258,7 @@ module.exports = function (hljs){
       [
         {
           scope: 'operator',
-          match: regex.either(...OPERATORS)
+          match: /(\+|-|\*|\/|\*\*|>|<|<>|=|>=|<=|&|::|>>)/
         },
         {
           scope: 'string',
