@@ -255,14 +255,6 @@ module.exports = function (hljs)
     contains:
       [
         {
-          scope: 'operator',
-          contains: [
-            '+','-','*','/','**',
-            '>','<','<>','=','>=',
-            '<=','&','::','>>',
-          ]
-        },
-        {
           scope: 'string',
           begin: '"', end: '"'
         },
