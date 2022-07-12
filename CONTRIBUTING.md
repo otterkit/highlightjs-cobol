@@ -26,10 +26,6 @@ To generate the `dist` file, we need to clone the [highlight.js](https://github.
     $ git clone https://github.com/highlightjs/highlight.js
     $ cd highlight.js
 
-Since the tooling is not yet merged on master (see https://github.com/highlightjs/highlight.js/issues/2328), we need to checkout the `squash_build_pipeline` branch:
-
-    $ git checkout squash_build_pipeline
-
 Then, install the dependencies:
 
     $ npm i
