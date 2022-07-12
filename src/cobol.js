@@ -12,8 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module.exports = function (hljs)
-{
+module.exports = function (hljs){
+  
+  const OPERATORS = [
+    '+','-','*','/','**',
+    '>','<','<>','=','>=',
+    '<=','&','::','>>',
+  ]
+
   return {
     name: 'COBOL',
     aliases:['Standard COBOL','cobol'],
@@ -256,11 +262,6 @@ module.exports = function (hljs)
     },
     contains:
       [
-        OPERATORS = [
-          '+','-','*','/','**',
-          '>','<','<>','=','>=',
-          '<=','&','::','>>',
-        ],
         {
           scope: 'operator',
           match: regex.either(...OPERATORS)
