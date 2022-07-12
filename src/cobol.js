@@ -263,7 +263,7 @@ module.exports = function (hljs){
         },
         {
           scope: 'operator',
-          begin: /\W(\+|-|\*\*|\*|\/|<>|>=|<=|>>|>|<|=|&|::)/
+          begin: /(\+|-|\*\*|\*(?!>)|\/|<>|>=|<=|>>|(?<!\*)>|<|=|&|::)/
         },
         {
           scope: 'string',
