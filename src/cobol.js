@@ -257,6 +257,14 @@ module.exports = function (hljs){
     contains:
       [
         {
+          scope: 'type',
+          begin: /(9|S9|V9|X|A)+(\([0-9]*\))+/
+        },
+        {
+          scope: 'operator',
+          begin: /\W(\+|-|\*\*|\*|\/|<>|>=|<=|>>|>|<|=|&|::)/
+        },
+        {
           scope: 'string',
           begin: '"', end: '"'
         },
