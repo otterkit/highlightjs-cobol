@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-cobol",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "COBOL syntax highlighting for highlight.js",
   "main": "src/cobol.js",
   "scripts": {
