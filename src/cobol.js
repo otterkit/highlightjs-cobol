@@ -16,7 +16,7 @@ module.exports = function (hljs){
 
   return {
     name: 'COBOL',
-    aliases:['standard cobol','cobol'],
+    aliases:['standard-cobol','cobol'],
     case_insensitive: true,
     keywords:{
       $pattern: /[a-zA-Z]+(?:-[a-zA-Z0-9]+)*/,
