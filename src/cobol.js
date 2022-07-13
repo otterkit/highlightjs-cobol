@@ -1,4 +1,4 @@
-// Copyright [yyyy] [name of copyright owner]
+// Copyright 2022 Gabriel Gonçalves <KTSnowy@outlook.com>
 // 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@ module.exports = function (hljs){
 
   return {
     name: 'COBOL',
-    aliases:['Standard COBOL','cobol'],
+    aliases:['standard cobol','cobol'],
     case_insensitive: true,
     keywords:{
       $pattern: /[a-zA-Z]+(?:-[a-zA-Z0-9]+)*/,
@@ -264,6 +264,10 @@ module.exports = function (hljs){
         {
           scope: 'operator',
           begin: /(\+| - |\*\*|\*(?!>)|\/|<>|>=|<=|>>|>|<|=|&|::)/
+        },
+        {
+          scope: 'number',
+          begin: /([0-9]+(?:(\.|,)[0-9]+)*)/
         },
         {
           scope: 'string',

@@ -40,6 +40,6 @@ Create an `extra` directory and clone the [highlightjs-cobol](https://github.com
 Now we are ready to generate the `dist` file.
 Open a terminal and type:
 
-    $ node  --stack-size=65500  ./tools/build.js -t cdn
+    $ node ./tools/build.js -t cdn
 
 The generated file will be available in both `build/languages/cobol.min.js` and `extra/highlightjs-cobol/dist/cobol.min.js`.
