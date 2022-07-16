@@ -6,6 +6,8 @@ COBOL is a statically typed, imperative, procedural programming language with su
 
 ## Usage
 
+Warning: This syntax highlighter is designed to work with __fixed-form only__ and won't work
+properly with free-form COBOL code.
 Simply include the Highlight.js library in your webpage or Node app, then load this module.
 
 ### Static website or simple usage

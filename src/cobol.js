@@ -256,10 +256,14 @@ module.exports = function (hljs){
     },
     contains:
       [
-        hljs.COMMENT(/\*>/, /\n/),
         {
           scope: 'comment',
-          begin: /(^[ 0-9a-zA-Z]{1,6}[*]*)/m
+          begin: /(^[ 0-9a-zA-Z]{1,6}[*])/,
+          end: /\n/
+        },
+        {
+          scope: 'comment',
+          begin: /(^[ 0-9a-zA-Z]{1,6})/m
         },
         {
           scope: 'doctag',
@@ -272,7 +276,7 @@ module.exports = function (hljs){
         },
         {
           scope: 'operator',
-          begin: /(\+| - |\*\*|\*(?!>)|\/|<>|>=|<=|>|<|=|&|::)/
+          begin: /(\+| - |\*\*|\*|\/|<>|>=|<=|>|<|=|&|::)/
         },
         {
           scope: 'number',
