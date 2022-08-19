@@ -12,7 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module.exports = function (hljs){
+/** @type LanguageFn */
+export default function (hljs){
 
   return {
     name: 'COBOL',
@@ -20,7 +21,7 @@ module.exports = function (hljs){
     case_insensitive: true,
     keywords:{
       $pattern: /[a-zA-Z]+(?:-[a-zA-Z0-9]+)*/,
-      // Keywords from the 202x draft of the COBOL standard.
+      // Keywords from the 2022 DIS of the COBOL standard.
       keyword: [
         // A
         'ACCEPT','ACCESS',

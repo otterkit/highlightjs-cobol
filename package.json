@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-cobol",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "COBOL syntax highlighting for highlight.js",
   "main": "src/cobol.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/otterkit/highlightjs-cobol#readme",
   "devDependencies": {
-    "highlight.js": "^11.5.1",
+    "highlight.js": "^11.6.0",
     "mocha": "^10.0.0",
     "should": "^13.2.3"
   },
