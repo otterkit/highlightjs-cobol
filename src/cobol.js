@@ -38,6 +38,7 @@ export default function (hljs){
         'AREAS','AS',
         'ASCENDING','ASSIGN',
         'AT',
+        'AUTHOR',
         // B
         'B-AND','B-NOT',
         'B-OR','B-SHIFT',
