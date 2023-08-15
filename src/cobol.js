@@ -178,7 +178,7 @@ export default function (hljs){
         'PLUS','POINTER',
         'POSITIVE','PRESENT',
         'PRINTING','PROCEDURE',
-        'PROGRAM','PROGRAM-ID',
+        'PROGRAM-ID','PROGRAM',
         'PROGRAM-POINTER','PROPERTY',
         'PROTOTYPE',
         // R
@@ -265,7 +265,7 @@ export default function (hljs){
         },
         {
           scope: 'comment',
-          begin: /(^[ 0-9a-zA-Z]{1,6})/m
+          begin: /(^[0-9a-zA-Z]{1,6})/m
         },
         {
           scope: 'doctag',
