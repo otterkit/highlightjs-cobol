@@ -4,10 +4,7 @@
   "description": "COBOL syntax highlighting for highlight.js",
   "main": "src/cobol.js",
   "types": "src/rexx.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emmasbox/highlightjs-cobol.git"
-  },
+  "repository": "highlightjs-cobol",
   "keywords": [
     "cobol",
     "standard",
