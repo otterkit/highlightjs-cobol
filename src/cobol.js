@@ -278,7 +278,7 @@ export default function (hljs){
         },
         {
           scope: 'operator',
-          begin: /(\+| - |\*\*|\*|\/|<>|>=|<=|>|<|=|&|::)/
+          begin: /(\+|-|\*\*?|\/|<>|>=|<=|>|<|=|&|::)/
         },
         {
           scope: 'number',
