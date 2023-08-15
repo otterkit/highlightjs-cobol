@@ -282,7 +282,7 @@ export default function (hljs){
         },
         {
           scope: 'number',
-          begin: /([0-9]+(?:(\.|,)[0-9]+)*)/
+          begin: /\s([0-9]+(?:(\.)[0-9]+)*)/
         },
         {
           scope: 'string',
