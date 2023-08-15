@@ -5,7 +5,7 @@
   "main": "src/cobol.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otterkit/highlightjs-cobol.git"
+    "url": "git+https://github.com/emmasbox/highlightjs-cobol.git"
   },
   "keywords": [
     "cobol",
