@@ -258,10 +258,11 @@ export default function (hljs){
     },
     contains:
       [
-        hljs.COMMENT(
-          /(^[ 0-9a-zA-Z]{1,6}[*])/,
-          /\n/
-        ),
+        {
+          scope: 'comment',
+          begin: /(^[ 0-9a-zA-Z]{1,6}[*])/,
+          end: /\n/
+        },
         {
           scope: 'comment',
           begin: /(^[ 0-9a-zA-Z]{1,6})/m
