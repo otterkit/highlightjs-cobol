@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-enterprisecobol",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Enterprise COBOL syntax highlighting for highlight.js",
   "main": "src/cobol.js",
   "types": "src/cobol.d.ts",
