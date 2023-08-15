@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Enterprise COBOL syntax highlighting for highlight.js",
   "main": "src/cobol.js",
-  "types": "src/rexx.d.ts",
+  "types": "src/cobol.d.ts",
   "repository": "highlightjs-cobol",
   "keywords": [
     "cobol",
