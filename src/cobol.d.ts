@@ -1,5 +1,3 @@
-declare module 'highlightjs-cobol' {
-    import { LanguageFn } from "highlight.js";
-    const defineLanguage: LanguageFn;
-    export default defineLanguage;
-}
+import {HLJSApi, Language} from "highlight.js";
+
+export default function defineLanguage(hljs: HLJSApi): Language;

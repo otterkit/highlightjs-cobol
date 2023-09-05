@@ -1,35 +1,24 @@
 {
-  "name": "highlightjs-cobol",
-  "version": "0.3.3",
-  "description": "COBOL syntax highlighting for highlight.js",
+  "name": "highlightjs-enterprisecobol",
+  "version": "1.0.2",
+  "description": "Enterprise COBOL syntax highlighting for highlight.js",
   "main": "src/cobol.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/otterkit/highlightjs-cobol.git"
-  },
+  "types": "src/cobol.d.ts",
+  "repository": "highlightjs-cobol",
   "keywords": [
     "cobol",
-    "standard",
+    "enterprise COBOL",
     "hljs",
     "highlightjs",
     "highlight.js"
   ],
-  "author": "Gabriel Gonçalves <KTSnowy@outlook.com>",
+  "author": "Original author: Gabriel Gonçalves <KTSnowy@outlook.com>, Fork author: Emma Skovgaard",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/otterkit/highlightjs-cobol/issues"
+    "url": "https://github.com/EmmasBox/highlightjs-cobol/issues"
   },
-  "homepage": "https://github.com/otterkit/highlightjs-cobol#readme",
+  "homepage": "https://github.com/EmmasBox/highlightjs-cobol#readme",
   "devDependencies": {
-    "highlight.js": "^11.6.0",
-    "mocha": "^10.0.0",
-    "should": "^13.2.3"
-  },
-  "dependencies": {
-    "minimist": ">=1.2.6",
-    "mkdirp": "^1.0.4"
+    "highlight.js": "^11.6.0"
   }
 }
